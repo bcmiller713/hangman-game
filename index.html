@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Hangman Game</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet">
+</head>
+<body>
+	
+	<h1>Hangman</h1>
+	
+	<h2>International Edition</h2>
+
+	<div id="stats">
+
+		<h3>Games Played</h3>
+
+		<h3 id="game-count"></h3>
+
+		<h3>Wins</h3>
+
+		<h3 id="win-count"></h3>
+
+		<h3>Losses</h3>
+
+		<h3 id="loss-count"></h3>
+
+	</div>
+
+	<div id="main">
+
+		<h3 id="any-key">Press any key to begin playing!</h3>
+
+		<h3>Current Word</h3>
+
+		<h3 id="word"></h3>
+
+		<h3>Number of Guesses Remaining</h3>
+
+		<h3 id="guess-remaining"></h3>
+
+		<h3>Letters Already Guessed</h3>
+
+		<h3 id="letter-guessed"></h3>
+
+	</div>
+
+	<div id="results">
+		
+		<h3 id="win">You Win!</h3>
+
+		<h3 id="lose">You Lose!</h3>
+
+		<button id="button" onclick = "playAgain()">Play Again</button>
+
+		<img id="city" src=assets/images/world-map.gif>
+
+	</div>
+
+<script type="text/javascript" src="assets/javascript/game.js"></script>
+
+</body>
+</html>
